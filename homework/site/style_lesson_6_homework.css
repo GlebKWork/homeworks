@@ -3,39 +3,62 @@
 }
 body {
 	background-color: #f6f6f6;
-
 }
-.headphone_box {
+.profile, .headphone_img, .cart {
 	display: inline-block;
-	height: 375;
-	width: 376;
-	margin: 150px 681px 150px 143px;
-	padding: 65px 586px 64px 49px
-	border: 1px;
-	border-color: rgba(1,1,1,0.3);
+}
+.profile {
+	width: 1011px;
+	height: 504px;
 	background-color: white;
+	margin: 85px 95px 86px 94px;
+	border-color: rgba(1, 1, 1, 0.2);
+	border-style: solid;
+}
+.headphone_img {
+	margin: 65px 586px 64px 49px;
 
-}
-.h1 {
-	display: inline-block;
-	vertical-align: middle;
-	margin: 150px 681px 150px 143px;
-	font-style: 36px;	
-}
-.text, .price, .cart {
-	display: inline-block;
 }
 .cart {
+	width: 253px;
+	height: 51px;
 	background-color: #EC744A;
-	padding: 17px 39px 16px 40px;
-	font-size: 30px ;
 	color: white;
-	margin: 474px 366px 183px 660px;
-
+	position: absolute;
+	top: 457px;
+	right: 327px;
+	bottom: 167px;
+	left: 620px;
+ }
+.price1999 {
+	position: absolute;
+	top: 374px;
+	right: 476px;
+	bottom: 273px;
+	left: 621px;
+} 
+.price {
+	position: absolute;
+	top: 337px;
+	right: 546px;
+	bottom: 324px;
+	left: 619px;
 }
 .text {
-	font-style: 24px;
-	height: 50px;
 	width: 393px;
-
+	height: 50px;
+	position: absolute;
+	top: 232px;
+	right: 188px;
+	bottom: 393px;
+	left: 619px;
+}
+.h1 {
+	width: 178px;
+	height: 22px;
+	position: absolute;
+	top: 180px;
+	right: 404px;
+	bottom: 473px;
+	left: 618px;
 }
